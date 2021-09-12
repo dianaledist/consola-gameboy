@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playtechgo | Calculadora par impar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jscript.js"></script>
+</head>
+<body>
+    <div id="contenedor"> 
+        <div id="carcasa">
+            <div id="bordeinvisible">
+                <div id="lineaalta">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 12"><rect class="cls-1" width="48" height="12" rx="4.25" ry="4.25"/></svg>
+                </div> 
+                <div id="bordepantalla">
+                    <div id="pantalla">
+                        <div id="elementos">
+                            <h1>Escribe un número <br>
+                                y sabrás si es par o impar</h1>
+                            <input type="number" id="numero" placeholder=".........." autofocus>
+                            <button type="submit" id="procesar" onclick="parimpar()"> >> </button>
+                            <div id="resultado">
+                                <span id="bordepunteado"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="logo"> 
+                    <a href="https://www.instagram.com/playtechgo/" id="loguito"><h3>@playtechgo
+                    </h3> </a>              
+                </div>  
+                <div id="botones">
+                    <div id="cruz">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54"><path class="cls-1" d="M51,16H39V2.67C39,.93,37.81,0,36.08,0H19c-1.73,0-3,.93-3,2.67V16H3c-1.73,0-3,.87-3,2.61V35.7A3.2,3.2,0,0,0,3,39H16V50.58A3.26,3.26,0,0,0,19,54h17.1A3.22,3.22,0,0,0,39,50.58V39H51a3.2,3.2,0,0,0,3-3.3V18.61C54,16.87,52.69,16,51,16Z"/></svg>
+                    </div>
+                    <div id="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.66 46.22"><circle class="cls-1" cx="14.61" cy="31.61" r="14.61"/><circle class="cls-1" cx="56.05" cy="14.61" r="14.61"/></svg>
+                    </div> 
+                </div>
+                <div id="lineabaja">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 12"><rect class="cls-1" width="48" height="12" rx="4.25" ry="4.25"/></svg>
+                </div>
+                <div id="rayitas">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.52 29.95"><path class="cls-1" d="M8.72,30a1.34,1.34,0,0,1-1.19-.71L.16,15.38a1.34,1.34,0,1,1,2.37-1.26L9.9,28a1.34,1.34,0,0,1-1.18,2Z"/><path class="cls-1" d="M14.08,26.6a1.34,1.34,0,0,1-1.18-.71L5.52,12a1.34,1.34,0,1,1,2.37-1.26l7.38,13.86a1.34,1.34,0,0,1-.55,1.81A1.35,1.35,0,0,1,14.08,26.6Z"/><path class="cls-1" d="M19.45,23.25a1.34,1.34,0,0,1-1.18-.71L10.89,8.68a1.34,1.34,0,1,1,2.37-1.26l7.38,13.86a1.34,1.34,0,0,1-1.18,2Z"/><path class="cls-1" d="M24.81,19.89a1.34,1.34,0,0,1-1.18-.71L16.25,5.33a1.34,1.34,0,0,1,2.37-1.26L26,17.92a1.34,1.34,0,0,1-1.18,2Z"/><path class="cls-1" d="M30.18,16.54A1.34,1.34,0,0,1,29,15.83L21.61,2A1.34,1.34,0,1,1,24,.71l7.38,13.86a1.34,1.34,0,0,1-1.18,2Z"/></svg>
+                </div>                       
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript'>
+        document.oncontextmenu = function(){return false}
+    </script>
+</body>
+</html>
