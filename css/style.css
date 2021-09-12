@@ -4,6 +4,7 @@ height: auto;
 }
 
 #carcasa {
+  /**/
 -webkit-border-radius: 10px 10px 60px 10px;
 -moz-border-radius: 10px 10px 60px 10px;
 border-radius: 10px 10px 60px 10px;
