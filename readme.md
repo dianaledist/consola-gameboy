@@ -18,7 +18,7 @@
 ### Realizado con 💖 por <a href="https://www.linkedin.com/in/dianaledist/">Diana Leonor Di Stefano</a> y <a href="https://www.linkedin.com/in/saul-roldan">Saúl Roldán Yusta</a>
 
 
-<center><img src="info-disatechgo.png" alt="informacion disatechgo" ></center>
+<center><img src="info-disatechgo.png" alt="informacion disatechgo"></center>
 
 ### **[disatechgo](https://disatechgo.com/)**
 
